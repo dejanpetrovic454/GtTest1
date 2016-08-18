@@ -10,6 +10,8 @@ namespace GitTest1.Controllers
     {
         public IActionResult Index()
         {
+            a = 1;
+
             return View();
         }
 
