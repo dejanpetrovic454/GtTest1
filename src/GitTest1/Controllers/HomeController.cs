@@ -10,14 +10,12 @@ namespace GitTest1.Controllers
     {
         public IActionResult Index()
         {
-            a = 1;
-
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application description page. ";
 
             return View();
         }
