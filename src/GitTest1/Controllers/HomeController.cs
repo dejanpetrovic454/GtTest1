@@ -15,6 +15,8 @@ namespace GitTest1.Controllers
 
         public IActionResult About()
         {
+            int a = 1;
+
             ViewData["Message"] = "Your application description page. ";
 
             return View();
